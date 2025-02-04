@@ -1,0 +1,39 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+.form-label, .btn, .table, h1, h2, h3, p {
+    color: #e0e0e0;
+}
+.table-dark {
+    background-color: #333333;
+}
+.table-success {
+    background-color: #1b5e20 !important;
+}
+.table-danger {
+    background-color: #b71c1c !important;
+}
+#toggleIncorrect {
+    color: #e0e0e0;
+    background-color: #333333;
+    border: 1px solid #555555;
+}
+
+#toggleIncorrect:hover {
+    background-color: #444444;
+    color: #ffffff;
+}
+#loadingSpinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#loadingSpinner .spinner-border {
+    width: 3rem;
+    height: 3rem;
+} 
+.trash-icon {
+    cursor: pointer;
+}
